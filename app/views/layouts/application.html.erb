@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere|Yantramanav" rel="stylesheet">
     <title>Bhens</title>
     <%= csrf_meta_tags %>
 
@@ -12,7 +12,7 @@
   <body>
 
 
-  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,16 +21,16 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-md-0">
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">ABOUT</a>
       </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Tattoo</a>
+            <a class="nav-link" href="#">TATTOO</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Art</a>
+            <a class="nav-link" href="#">ART</a>
         </li>
          <li class="nav-item">
-            <a class="nav-link" href="#">Photography</a>
+            <a class="nav-link" href="#">PHOTOGRAPHY</a>
         </li>
     </ul>
   </div>
@@ -38,5 +38,14 @@
 
 
     <%= yield %>
+  </div>
+
+  <div id="footer">
+      <div class="container">
+        <b>TO BOOK AN APPOINTMENT</b>
+        <br />
+        <%= link_to 'CONTACT ME', '#' %>
+      </div>
+    </div>
   </body>
 </html>

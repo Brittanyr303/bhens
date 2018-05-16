@@ -1,14 +1,14 @@
 @import "bootstrap";
 
  .navbar {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-weight: 200;
-  box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('bg.png')
+  font-size: 20px;
+  #background: image_url('bg3.png')
 }
 
 .navbar-inverse a.navbar-brand {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-weight: 100;
   color: white;
 }
@@ -19,27 +19,30 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
-  box-shadow: 0px 3px 8px #2a2a2a;
+  height: 370px;
 }
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
 
+.text-center {
+  font-family: 'Yantramanav', sans-serif;
+}
+
 .frosty {
   background: rgba(0, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
   color: white;
 }
 
 .frosty h1 {
-  font-family: 'Yantramanav', sans-serif;
-  font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  font-family: 'Asap Condensed', sans-serif;
 }
 
 .frosty h2 {
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
   font-weight: 200;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
 }
@@ -48,6 +51,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 20%
+  padding-bottom: 5%;
 }
 
+.row feature text-center {
+  margin-left: center;
+  margin-right: center;
+}
