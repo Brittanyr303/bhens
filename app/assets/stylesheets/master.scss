@@ -65,3 +65,21 @@ h1, h2, h3, h4, h5, h6, .navbar {
   margin-left: auto;
   top-padding: 0;
 }
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.staticbg {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.right-nav-item {
+  font-family: 'Asap Condensed', sans-serif;
+}
