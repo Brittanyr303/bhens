@@ -78,8 +78,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-top:0;
 }
 
-.right-nav-item {
+.bio {
   font-family: 'Asap Condensed', sans-serif;
+  text-align: center;
 }
+

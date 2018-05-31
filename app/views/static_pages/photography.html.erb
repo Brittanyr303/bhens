@@ -1,9 +1,44 @@
+<div class="staticbg">
 <br />
 
 <div class="booyah-box col-10 offset-1">
-  <h1>Photography</h1>
-
-  <p>
-    I also take photos
-  </p>
+  <br />
+  <br />
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <%= image_tag 'Pslide1.jpg', class: 'd-block img-fluid' %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag 'Pslide2.jpg', class: 'd-block img-fluid' %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag 'Pslide3.jpg', class: 'd-block img-fluid' %>
+    </div>    
+    <div class="carousel-item">
+      <%= image_tag 'Pslide4.jpg', class: 'd-block img-fluid' %>
+    </div>   
+     <div class="carousel-item">
+      <%= image_tag 'Pslide5.jpg', class: 'd-block img-fluid' %>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br />
+<br />
 </div>

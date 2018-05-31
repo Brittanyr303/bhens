@@ -1,5 +1,4 @@
 class StaticPagesController < ApplicationController
-
   def index
   end
 
@@ -17,4 +16,5 @@ class StaticPagesController < ApplicationController
 
   def appointments
   end
+
 end
